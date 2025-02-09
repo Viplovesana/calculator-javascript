@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <table align="center" border="1" cellspacing="15px" cellpadding="10px">
+        <tr>
+            <td id="display" colspan="4"></td>
+        </tr>
+
+        <tr>
+            <td class="green" onclick="allc()">AC</td>
+            <td class="green" onclick="del()">DE</td>
+            <td class="green" onclick="dis('%')">%</td>
+            <td class="green" onclick="dis('/')">/</td>
+        </tr>
+
+        <tr>
+            <td onclick="dis('7')">7</td>
+            <td onclick="dis('8')">8 </td>
+            <td onclick="dis('9')">9</td>
+            <td class="green" onclick="dis('*')">*</td>
+        </tr>
+
+        <tr>
+            <td onclick="dis('4')">4</td>
+            <td onclick="dis('5')">5</td>
+            <td onclick="dis('6')">6</td>
+            <td class="green" onclick="dis('-')">-</td>
+        </tr>
+
+        <tr>
+            <td onclick="dis('1')">1</td>
+            <td onclick="dis('2')">2</td>
+            <td onclick="dis('3')">3</td>
+            <td class="green" onclick="dis('+')">+</td>
+        </tr>
+
+        <tr>
+            <td onclick="dis('00')">00</td>
+            <td onclick="dis('0')">0</td>
+            <td onclick="dis('.')">.</td>
+            <td class="orange" colspan="" onclick="res('=')">=</td>
+            
+        </tr>
+    </table>
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
